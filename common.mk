@@ -154,6 +154,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service.xml \
     vendor.qti.hardware.memtrack-service
 
+PRODUCT_PACKAGES += \
+    libgui_vendor
+
 PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8350/display/config/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml
 
@@ -405,6 +408,10 @@ PRODUCT_COPY_FILES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
+
+# TinyXML
+PRODUCT_PACKAGES += \
+    libtinyxml
 
 # Touchscreen
 PRODUCT_COPY_FILES += \
