@@ -160,6 +160,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.config-V5-ndk
+
+PRODUCT_PACKAGES += \
     libgui_vendor
 
 PRODUCT_COPY_FILES += \
