@@ -517,5 +517,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpng.vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
